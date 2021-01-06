@@ -1,4 +1,4 @@
-# beta_tails
+# Tails of Beta Distribution
 
-Tail bounds for beta distribution are derived as a theoretical result, in form of a Bernstein-type inequality.
-The peformance is evaluated in a Python notebook.
+1. Tail bounds for beta distribution are derived as a theoretical result, in form of a Bernstein-type inequality.
+2. The peformance is evaluated in a Python notebook.
