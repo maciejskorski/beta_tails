@@ -9,21 +9,14 @@ and uses this recurision to derive optimal Bernstein-type (or: sub-gamma) tail b
 $$
 \mathbf{P}(X > \mathbf{E}[X]+\epsilon )  \leqslant 
 \begin{cases}
-\exp\left(-\frac{\epsilon^{2}}{2 \left(v+\frac{\max(c,0) \epsilon}{3} \right)}\right) & \beta\geqslant \alpha \\
+\exp\left(-\frac{\epsilon^{2}}{2 \left(v+\frac{c \epsilon}{3} \right)}\right) & \beta\geqslant \alpha \\
 \exp\left(-\frac{\epsilon^{2}}{2v} \right) & \beta < \alpha,
 \end{cases}
 $$
 
 with $v \triangleq {\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}}$ and $c \triangleq  \frac{2 \left(\beta - \alpha\right)}{\left(\alpha + \beta\right) \left(\alpha + \beta + 2\right)}$. 
 
-These bounds are better than sub-gaussian bounds from pror work, as shown in the figure below
+These bounds are better than sub-gaussian bounds from pror work, as shown in the figure below.
 ![image](comparison.png)
-
-$$
-\begin{cases}
-\exp\left(-\frac{\epsilon^{2}}{2 \left(v+\frac{\max(c,0) \epsilon}{3} \right)}\right) & \beta\geqslant \alpha \\
-\exp\left(-\frac{\epsilon^{2}}{2v} \right) & \beta < \alpha,
-\end{cases}
-$$
 
 The implementation is shared in the [notebook](/Beta_SubGamma.ipynb) and the paper is available at [arXiv](https://arxiv.org/abs/2101.02094).
