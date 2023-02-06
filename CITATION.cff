@@ -1,9 +1,9 @@
-@misc{Skórski_2023,
-  title={Bernstein Bounds for Beta Distribution},
-  url={osf.io/ysvdh},
-  DOI={10.17605/OSF.IO/YSVDH},
-  publisher={OSF},
-  author={Skórski, Maciej},
-  year={2023},
-  month={Feb},
-}
+message: "If you use this repository, please cite it as below."
+authors:
+  - family-names: Skórski
+    given-names: Maciej
+    orcid: https://orcid.org/0000-0003-2997-7539
+title: "Bernstein Bounds for Beta Distribution"
+version: 0.1
+doi: 10.17605/OSF.IO/YSVDH
+date-released: 2023-02-01
