@@ -7,6 +7,7 @@ $$\mu_{d} = \frac{\alpha \beta \left(d - 1\right)}{\left(\alpha + \beta\right)^{
 and uses this recurision to derive optimal Bernstein-type (or: sub-gamma) tail bounds:
 
 $$
+\mathbf{P}(X > \mathbf{E}[X]+\epsilon )  \leqslant 
 \begin{cases}
 \exp\left(-\frac{\epsilon^{2}}{2 \left(v+\frac{\max(c,0) \epsilon}{3} \right)}\right) & \beta\geqslant \alpha \\
 \exp\left(-\frac{\epsilon^{2}}{2v} \right) & \beta < \alpha,
