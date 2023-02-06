@@ -4,6 +4,9 @@ Repository of the paper "Bernstein-Type Bounds for Beta Distribution".
 
 The work introduces a novel handy recursion for central moments $\mu_d$ of beta distribution with shape $(\alpha,\beta)$:
 $$
+1+2
+$$
+$$
 {\mu}_{d} = \frac{\alpha \beta \left(d - 1\right) {\mu}_{d - 2}}{\left(\alpha + \beta\right)^{2} \left(\alpha + \beta + d - 1\right)} + \frac{\left(- \alpha + \beta\right) \left(d - 1\right) {\mu}_{d - 1}}{\left(\alpha + \beta\right) \left(\alpha + \beta + d - 1\right)},\quad \mu_0=1,\mu_0=0
 $$
 which is then used to derive sharp Bernstein-type tail bounds:
