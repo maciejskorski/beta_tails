@@ -17,4 +17,4 @@ $$
 with $v \triangleq {\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}}$ and $c \triangleq  \frac{2 \left(\beta - \alpha\right)}{\left(\alpha + \beta\right) \left(\alpha + \beta + 2\right)}$. 
 
 These bounds are better than sub-gaussian bounds from pror work:
-![image](comparison.png)
+![image](comparison.svg)
