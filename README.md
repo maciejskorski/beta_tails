@@ -3,8 +3,7 @@
 Repository of the paper "Bernstein-Type Bounds for Beta Distribution".
 
 The work introduces a novel handy recursion for central moments $\mu_d$ of beta distribution with shape $(\alpha,\beta)$:
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
-$${\mu}_{d} = \frac{\alpha \beta \left(d - 1\right) {\mu}_{d - 2}}{\left(\alpha + \beta\right)^{2} \left(\alpha + \beta + d - 1\right)} + \frac{\left(- \alpha + \beta\right) \left(d - 1\right) {\mu}_{d - 1}}{\left(\alpha + \beta\right) \left(\alpha + \beta + d - 1\right)},\quad \mu_0=1,\mu_0=0$$
+$$\mu_{d} = \frac{\alpha \beta \left(d - 1\right)}{\left(\alpha + \beta\right)^{2} \left(\alpha + \beta + d - 1\right)}\cdot \mu_{d - 2} + \frac{\left(- \alpha + \beta\right) \left(d - 1\right)}{\left(\alpha + \beta\right) \left(\alpha + \beta + d - 1\right)}\cdot \mu_{d - 1},\quad \mu_0=1,\mu_0=0$$
 which is then used to derive sharp Bernstein-type tail bounds:
 $$
 \mathbf{P}\left\{X > \mathbf{E}[X]+\epsilon \right\}  \leqslant 
